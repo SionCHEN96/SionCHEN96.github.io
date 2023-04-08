@@ -1,0 +1,12 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 一级菜单居中 */
+#nav .menus_items {
+	position: absolute;
+	width: fit-content;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+}
